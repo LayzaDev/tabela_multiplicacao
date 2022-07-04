@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>multiplication table</title>
+
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Multiplication Table</h1>
+    </header>
+
+    <!--Entry form-->
+    <section class="txtSection">
+      <div>
+        <p>
+          Number: <input type="number" name="num" id="txtnum" />
+          <input
+            id="button"
+            type="button"
+            value="generate table"
+            onclick="table()"
+          />
+        </p>
+      </div>
+
+      <!--Place where the table will appear-->
+      <div class="selector">
+        <select name="table" id="seltab" size="10">
+          <option>Enter a number above</option>
+        </select>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; CursoEmVídeo</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
