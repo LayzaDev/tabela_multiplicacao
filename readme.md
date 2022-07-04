@@ -29,7 +29,7 @@ When receiving any number, the program must generate within a select the multipl
 
 ### _Project link_
 
-[Multiplication Table Challenge](http://127.0.0.1:5500/index.html)
+[Multiplication Table Challenge](https://layzadev.github.io/tabela_multiplicacao/)
 
 ### _Social networks_
 
